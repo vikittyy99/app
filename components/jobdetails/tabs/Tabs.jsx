@@ -12,7 +12,7 @@ const TabButton = ({ name, activeTab, onHandleSearchType }) => (
     <Text style={styles.btnText(name,activeTab)}>{name}</Text>
   </TouchableOpacity>
 )
-
+//
 const Tabs = ({ tabs, activeTab, setActiveTab }) => {
   return (
     <View style={styles.container}>
